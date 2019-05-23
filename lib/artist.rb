@@ -3,7 +3,7 @@ require 'pry'
 class Artist
   attr_accessor :name
   attr_reader :songs
-extend memorable::ClassMethods
+extend Memorable::ClassMethods
   @@artists = []
 
   def initialize
