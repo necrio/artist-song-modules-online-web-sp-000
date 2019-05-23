@@ -34,5 +34,3 @@ extend memorable::ClassMethods
     name.downcase.gsub(' ', '-')
   end
 end
-
-
