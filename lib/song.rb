@@ -35,7 +35,4 @@ extend memorable::ClassMethods
   end
 end
 
-class Song
-  extend Song::ClassMethods
-  # include FancyDance::InstanceMethods
-end
+
