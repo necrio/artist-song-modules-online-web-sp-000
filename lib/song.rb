@@ -34,3 +34,8 @@ class Song
     name.downcase.gsub(' ', '-')
   end
 end
+
+class Song
+  extend Song::ClassMethods
+  # include FancyDance::InstanceMethods
+end
